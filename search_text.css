@@ -1,0 +1,28 @@
+/* ============================= 페이지내 검색창 만들기 */
+.search_word_wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.search_word_wrap p {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.search_word_wrap div {
+    display: flex;
+}
+.search_word_wrap div input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.search_word_wrap div .search_word {
+    padding: 5px 10px;
+    border: 0;
+    background-color: #ddd;
+    cursor: pointer;
+}
+.highlight {
+    background-color: yellowgreen;
+}
